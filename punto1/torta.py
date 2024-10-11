@@ -1,4 +1,4 @@
-class torta:
+class Torta:
     def __init__(self):
         self.__masa = ""
         self.__relleno = ""
