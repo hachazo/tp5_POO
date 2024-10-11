@@ -9,7 +9,7 @@ class ChocolateTortaBuilder(TortaBuilder):
         self.torta.set_masa("chocolate")
     
     def preparar_relleno(self):
-        self.torta.set_relleno("dulce de leche")
+        self.torta.set_relleno("frutillas")
     
     def obtener_torta(self):
         return self.torta

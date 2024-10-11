@@ -1,15 +1,15 @@
-from tortabuilder import TortaBuilder
-from torta import Torta
+from tortabuilder import *
+from torta import *
 
 class VainillaTortaBuilder(TortaBuilder):
     def __init__(self):
-        self.torta = Torta()
+        self.__torta = Torta()
 
     def preparar_masa(self):
-        self.torta.get
+        self.__torta.set_masa("vainilla")
 
     def preparar_relleno(self):
-        self.torta.relleno = "crema"
+        self.__torta.set_relleno("dulce de leche")
 
     def obtener_torta(self):
-        return self.torta
+        return self.__torta
